@@ -1,0 +1,30 @@
+def factorial(n):
+fact=1 for i in range
+(1,n+1):
+fact=fact*i return fact
+def fiboAndFactorial(n):
+l=[]
+term=0;
+fact=0
+a=0 b=1
+
+c=a+b
+if(n==0):
+l.append(0)
+
+l.append(0)
+elif n==1:
+l.append(1)
+l.append(1)
+else:
+fact=factorial(n)
+l.append(fact) for i in
+range(3,n+1):
+c=a+b
+a=b b=c
+l.append(c) return
+l
+n=int(input("ENTER A NUMBER"))
+list=[] list=fiboAndFactorial(n)
+print("FACTORIAL : ",list[0])
+print("nth TERM : ",list[1])
